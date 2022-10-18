@@ -1,7 +1,7 @@
 module.exports = {
   ci: {
     collect: {
-      staticDistDir: './app/views',
+      staticDistDir: './app/views/*.html.erb',
       url: ['http://localhost:3000/'],
       startServerCommand: 'rails server -e production',
     },
